@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 2px solid rgb(7, 0, 105);
+  overflow: hidden;
+  width: 350px;
+  margin-bottom: 50px;
+  background-color: #eaf7f48a;
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+.card:hover {
+  background-color: #cdd6ff8a;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.521);
+}
+.profile {
+  padding: 20px;
+}
+.image {
+  border-radius: 15px;
+  background-color: rgba(49, 12, 153, 0.596);
+  width: 175px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.tag {
+  color: rgba(7, 0, 105, 0.8);
+}
+.location {
+  color: rgba(7, 0, 105, 0.8);
+}
+.list {
+  display: flex;
+  background-color: #eaf7f48a;
+  border-top: 1px dashed rgba(95, 95, 95, 0.63);
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.item:hover {
+    background-color: #cdd6ff8a;
+}
+.item:nth-child(2) {
+  border-right: 1px dashed rgba(95, 95, 95, 0.63);
+  border-left: 1px dashed rgba(95, 95, 95, 0.63);
+}
+.title {
+    color: rgb(7, 0, 105);
+}
+.value {
+    font-weight: bold;
+}
